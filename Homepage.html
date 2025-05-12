@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Seite</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            background-color: #1e90ff; /* Blau, das sich dem Bild oben anpasst */
+        }
+        .header {
+            background-image: url('meer.jpg'); /* Pfad zum Bild vom Meer */
+            background-size: cover;
+            background-position: center;
+            padding: 50px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+        }
+        .content {
+            padding: 50px;
+        }
+        .content p {
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+        }
+        .content img {
+            margin-top: 20px;
+            width: 150px; /* Breite der kleinen Bilder */
+            height: auto;
+            border-radius: 10px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Herzlich Willkommen</h1>
+        <a href="Projekte.html">Projekte</a>
+    </div>
+    <div class="content">
+        <p>Dies ist ein Beispieltext, der unter der Kopfzeile angezeigt wird. Der Hintergrund ist blau und passt sich farblich dem Bild oben an.</p>
+        <img src="meer.jpg" alt="Bild 1">
+        <img src="meer2.jpg" alt="Bild 2">
+    </div>
+    <div class="footer">
+        <p><a href="Impressum.html" style="color: rgb(240, 224, 224);">Impressum</a></p>
+    </div>
+</body>
+</html>
